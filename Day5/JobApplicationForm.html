@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>
+            JobApplicationForm
+        </title>
+       
+    </head>
+    <body>
+        <h1><u><i>Job Application Form</i></u></h1>
+        <br>
+        <br>
+    <div class="container">
+        <form>
+        <label for="username" ><b>UserName :</b></label>
+        <input type="text" id="fname" name="username" placeholder="First Name" />
+        <input type="text" id="lname" name="username" placeholder="Surname"/>
+        <br>
+        <br>
+        <label for="email"><b>E-Mail :</b></label>
+        <input type="email" id="email" name="email" placeholder="E-Mail Address" required/>
+        <br>
+        <br>
+        <label for="phno" ><b>Phone Number :</b></label>
+        <input type="text" id="phno" name="phno" placeholder="XXXXXXXXXX" required/>
+        <br>
+        <br>
+        <label for="age" ><b>Age :</b></label>
+        <input type="number" id="age" name="age" placeholder="00"  required/>
+        <br>
+        <br>
+        <label for="dob" ><b>D.O.B</b></label>
+        <input type="date" id="dob" name="dob" />
+        <br>
+        <br>
+        <label for="male"><b>Gender :</b></label>
+        <input type="radio" id="male" name="Gender"/>
+        <label for="male" >Male</label>
+        <input type="radio" id="female" name="Gender"/>
+        <label for="female">Female</label>
+        <br>
+        <br>
+        <label for=""><b>Skills :</b></label>
+        <input type="checkbox" id="HTML" name="HTML"/>
+        <label for="HTML">HTML</label>
+
+        <input type="checkbox" id="CSS3" name="CSS3"/>
+        <label for="CSS3">CSS3</label>
+        <input type="checkbox" id="Javascript" name="JavaScript"/>
+        <label for="Javascript">JavaScript</label>
+        <input type="checkbox" id="React" name="React"/>
+        <label for="React">React</label>
+        <br>
+        <br>
+        <label for="exp"><b>Experience :</b></label>
+        <input type="number" id="exp" name="exp" placeholder="0" required/>
+        <br>
+        <br>
+        <label for="file"><b>Upload Resume (upto 1MB) :</b></label>
+        <input type="file" id="file" name="file" />
+        <br>
+        <br>
+        <label for="text1"><b>Address :</b></label>
+        <input type="text" id="text1" name="text1" placeholder="Street Address Line1"/>
+        <input type="text" id="text2" name="text1" placeholder="City"/>
+        <br>
+        <br>
+        <input type="submit" />
+    </form>
+    </div>
+    </body>
+</html>

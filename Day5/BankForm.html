@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>
+            Bank Form
+        </title>
+    </head>
+    <body>
+        <h1><u><i>Bank Account Registration Form</i></u></h1>
+        <br>
+        <br>
+        <form>
+            <label for="acc"><b>Please specify the account you want to open ? </b></label>
+            <br><br>&nbsp;&nbsp;
+            <input type="radio" id="savings" name="acc" />
+            <label for="savings" >Savings Account</label>
+            <input type="radio" id="curr" name="acc"/>
+            <label for="curr">Current Account</label>
+            <input type="radio" id="Fixed" name="acc"/>
+            <label for="Fixed">Fixed Deposit Account</label>
+            <input type="radio" id="student" name="acc"/>
+            <label for="student">Student Account</label>
+            <br>
+            <br>
+            <label for="username" ><b>Name(Block Letters) :</b></label>
+            <input type="text" id="fname" name="username" placeholder="First Name" required />
+            <input type="text" id="lname" name="username" placeholder="Surname" required/>
+        <br>
+        <br>
+            <label for="username" ><b>Father Name(Block Letters) :</b></label>
+            <input type="text" id="fname" name="username" placeholder="First Name" />
+            <input type="text" id="lname" name="username" placeholder="Surname"/>
+        <br>
+        <br>
+        <label for="username" ><b>Mother Name(Block Letters) :</b></label>
+            <input type="text" id="fname" name="username" placeholder="First Name" />
+            <input type="text" id="lname" name="username" placeholder="Surname"/>
+        <br>
+        <br>
+        <label for="email"><b>E-Mail :</b></label>
+        <input type="email" id="email" name="email" placeholder="E-Mail Address" required/>
+        <br>
+        <br>
+        <label for="phno" ><b>Phone Number :</b></label>
+        <input type="text" id="phno" name="phno" placeholder="XXXXXXXXXX" required/>
+        <br>
+        <br>
+        <label for="age" ><b>Age :</b></label>
+        <input type="number" id="age" name="age" placeholder="00"  required/>
+        <br>
+        <br>
+        <label for="dob" ><b>D.O.B</b></label>
+        <input type="date" id="dob" name="dob" />
+        <br>
+        <br>
+        <label for="male"><b>Gender :</b></label>
+        <input type="radio" id="male" name="Gender"/>
+        <label for="male" >Male</label>
+        <input type="radio" id="female" name="Gender"/>
+        <label for="female">Female</label>
+        <input type="radio" id="custom" name="Gender"/>
+        <label for="custom">Prefer Not to Say</label>
+        <br>
+        <br>
+        <label for="text1"><b>Address :</b></label>
+        <br>
+        <input type="text" id="text1" name="text1" placeholder="Street Address Line1"/>
+        <input type="text" id="text2" name="text1" placeholder="City"/>
+        <input type="text" id="text3" name="text1" placeholder="PinCode"/>
+        <br>
+        <br>
+        <label for="file"><b>Upload Aadhar (upto 1MB) :</b></label>
+        <input type="file" id="file" name="file" />
+        <br>
+        <br>
+        <input type="submit"/>
+        </form>
+    </body>
+</html>
